@@ -12,32 +12,29 @@
 
 
     <RadioButton
-        android:id="@+id/radioButton"
+        android:text="@string/radioButton"
         android:layout_width="194dp"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
-        android:layout_gravity="fill"
-        android:text="RadioButton" />
+        android:layout_gravity="fill" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:text="@string/checkBox"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:layout_column="2"
         android:layout_row="0"
         android:layout_columnWeight="1"
-        android:layout_gravity="fill"
-        android:text="CheckBox" />
+        android:layout_gravity="fill" />
 
     <Switch
-        android:id="@+id/switch3"
+        android:text="@string/switch3"
         android:layout_width="193dp"
         android:layout_height="52dp"
         android:layout_column="0"
         android:layout_row="1"
         android:layout_columnWeight="1"
-        android:layout_gravity="fill"
-        android:text="What does this do?" />
+        android:layout_gravity="fill" />
 
     <ImageButton
         android:id="@+id/imageButton2"
