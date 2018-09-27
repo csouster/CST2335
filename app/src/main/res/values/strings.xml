@@ -3,9 +3,18 @@
     <string name="hello_message">Hello World!</string>
     <string name="ButtonText">I\'m a button</string>
     <string name="Login">Login</string>
+    <string name="login_name">Login</string>
     <string name="Password">Password</string>
     <string name="radioButton">RadioButton</string>
     <string name="checkBox">CheckBox</string>
     <string name="switch3">What does this do?</string>
-
+    <string name="dialog_Message">Would you like to finish the Activity?</string>
+    <string name="dialog_Title">Confirmation</string>
+    <string name="dialog_Confirm">Continue</string>
+    <string name="dialog_Deny">Cancel</string>
+    <string name="Exit_Aborted">Exit Activity Aborted!</string>
+    <string name="Exit_Approved">Exited Activity Successfully!</string>
+    <string name="Intent_Message">ListItemsActivity passed: My information to share</string>
+    <string name="switchOnMessage">Switch is On</string>
+    <string name="switchOffMessage">Switch is Off</string>
 </resources>

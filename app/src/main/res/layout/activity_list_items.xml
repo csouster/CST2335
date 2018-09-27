@@ -19,6 +19,7 @@
         android:layout_gravity="fill" />
 
     <CheckBox
+        android:id="@+id/checkBox"
         android:text="@string/checkBox"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
@@ -28,6 +29,7 @@
         android:layout_gravity="fill" />
 
     <Switch
+        android:id="@+id/switchButton"
         android:text="@string/switch3"
         android:layout_width="193dp"
         android:layout_height="52dp"
@@ -37,7 +39,7 @@
         android:layout_gravity="fill" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_column="2"

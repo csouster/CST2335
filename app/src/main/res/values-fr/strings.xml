@@ -9,4 +9,15 @@
     <string name="Login">S\'identifier</string>
     <string name="Password">Mot de passe</string>
     <string name="login_name">identifiant</string>
+    <string name="dialog_Message">Voulez-vous terminer l\'activité?</string>
+    <string name="dialog_Title">Confirmation</string>
+    <string name="dialog_Confirm">Continuer</string>
+    <string name="dialog_Deny">Annuler</string>
+    <string name="Exit_Aborted">Activité de sortie annulée!</string>
+    <string name="Exit_Approved">Activité quittée avec succès!</string>
+    <string name="Intent_Message">ListItemsActivity transmise: Mes informations à partager</string>
+    <string name="switchOnMessage">Commutateur est allumé</string>
+    <string name="switchOffMessage">Commutateur est éteint</string>
+
+
 </resources>
