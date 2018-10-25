@@ -12,6 +12,7 @@ public class StartActivity extends Activity {
 
     protected static String ACTIVITY_NAME = "StartActivity";
     protected Button button;
+    protected Button chatButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +30,18 @@ public class StartActivity extends Activity {
                     startActivityForResult(intent, 50);
             }
         });
+        chatButton = findViewById(R.id.startChatButton);
 
+        chatButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i(ACTIVITY_NAME, "User clicked Start Chat");
+                Intent intent = new Intent(StartActivity.this, ChatWindow.class);
+                startActivity(intent);
+
+
+            }
+        });
 
     }
 
@@ -78,5 +90,8 @@ public class StartActivity extends Activity {
         }
 
     }
+
+
+
 
 }

@@ -18,6 +18,11 @@
     <string name="Intent_Message">ListItemsActivity transmise: Mes informations à partager</string>
     <string name="switchOnMessage">Commutateur est allumé</string>
     <string name="switchOffMessage">Commutateur est éteint</string>
+    <string name="startChat">Démarrer la discussion</string>
+    <string name="sendButton">Envoyer</string>
+    <string name="newText">nouveau texte</string>
+    <string name="enterText">entrez du texte</string>
+
 
 
 </resources>
