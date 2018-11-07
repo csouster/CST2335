@@ -135,6 +135,7 @@ public class WeatherForecast  extends Activity {
                     try {    fis = openFileInput(iconName + ".png");   }
                     catch (FileNotFoundException e) {    e.printStackTrace();  }
                     weatherPicture = BitmapFactory.decodeStream(fis);
+                    publishProgress(100);
 
                 } else {
 
