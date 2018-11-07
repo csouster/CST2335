@@ -32,4 +32,10 @@
         android:layout_height="wrap_content"
         android:text="@string/startChat" />
 
+    <Button
+        android:id="@+id/weatherForecastButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weather Forecast" />
+
 </LinearLayout>
